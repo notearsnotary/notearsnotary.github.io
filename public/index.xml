@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>No Tears Notary</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on No Tears Notary</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;We are dedicated to providing reliable and professional notary services to our clients.&lt;/p&gt;&#xA;&lt;p&gt;Our mission is to make the notarization process as seamless and stress-free as possible.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;We would love to hear from you!&lt;/p&gt;&#xA;&lt;div class=&#34;button-container&#34;&gt;&#xA;    &lt;a href=&#34;mailto:beth@notearsnotary.com&#34; class=&#34;button email&#34;&gt;Email us: beth@notearsnotary.com&lt;/a&gt;&#xA;    &lt;a href=&#34;sms:9192832745&#34; class=&#34;button phone&#34;&gt;Text us: (919)283-2745&lt;/a&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/home/</guid>
+      <description>&lt;div class=&#34;home-info&#34;&gt;&#xA;    &lt;span&gt;Durham, NC&lt;/span&gt;&#xA;    &lt;span&gt;|&lt;/span&gt;&#xA;    &lt;a href=&#34;sms:9192832745&#34;&gt;(919)283-2745&lt;/a&gt;&#xA;    &lt;span&gt;|&lt;/span&gt;&#xA;    &lt;a href=&#34;mailto:beth@notearsnotary.com&#34;&gt;beth@notearsnotary.com&lt;/a&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/</guid>
+      <description>&lt;h3 id=&#34;notarization&#34;&gt;Notarization&lt;/h3&gt;&#xA;&lt;p&gt;We offer professional notarization services for various documents, ensuring they are legally binding and recognized.&lt;/p&gt;&#xA;&lt;h3 id=&#34;document-preparation&#34;&gt;Document Preparation&lt;/h3&gt;&#xA;&lt;p&gt;Our team can assist you in preparing documents that require notarization, making the process smooth and efficient.&lt;/p&gt;&#xA;&lt;h3 id=&#34;mobile-notary-services&#34;&gt;Mobile Notary Services&lt;/h3&gt;&#xA;&lt;p&gt;We provide mobile notary services, coming to your location for added convenience.&lt;/p&gt;&#xA;&lt;h3 id=&#34;witness-services&#34;&gt;Witness Services&lt;/h3&gt;&#xA;&lt;p&gt;Need a witness for your documents? We can provide reliable witnesses to ensure your documents are properly executed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

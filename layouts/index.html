@@ -1,0 +1,30 @@
+{{ define "main" }}
+<section id="home">
+    <h1>{{ .Title }}</h1>
+    <h1>No Tears Notary</h1>
+    {{ with .Site.GetPage "home.md" }}
+        {{ .Content }}
+    {{ end }}
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    {{ with .Site.GetPage "about.md" }}
+        {{ .Content }}
+    {{ end }}
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    {{ with .Site.GetPage "services.md" }}
+        {{ .Content }}
+    {{ end }}
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    {{ with .Site.GetPage "contact.md" }}
+        {{ .Content }}
+    {{ end }}
+</section>
+{{ end }}

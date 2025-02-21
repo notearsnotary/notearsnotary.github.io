@@ -1,0 +1,11 @@
+baseURL = "http://notearsnotary.com/"
+languageCode = "en-us"
+title = "No Tears Notary"
+theme = "sabrina-carpenter"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+ignoreLogs = ["warning-goldmark-raw-html"]

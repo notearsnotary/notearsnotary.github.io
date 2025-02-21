@@ -1,0 +1,117 @@
+<!-- filepath: /Users/hse9/notearsnotary.github.io/my-hugo-website/themes/sabrina-carpenter/layouts/_default/baseof.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+        body {
+            font-family: sans-serif;
+            background-color: #8c52ff; /* Purple background */
+            color: black;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3.5em;
+            text-align: center;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 1.5em;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        a {
+            color: #23B5D3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'DM Serif Text', serif;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+        .home-info {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0;
+        }
+        .home-info span {
+            margin: 0 10px;
+        }
+        .home-info a {
+            color: black; /* Ensure links in home-info are black */
+            text-decoration: underline; /* Underline text decoration */
+        }
+        .home-info a:hover {
+            text-decoration: none; /* Remove underline on hover */
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #D7263D;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 0.9em;
+            flex: 1;
+            text-align: center;
+            margin: 0 10px;
+        }
+        .button:hover {
+            background-color: #b71e2f;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        {{ block "main" . }}{{ end }}
+    </div>
+</body>
+</html>
