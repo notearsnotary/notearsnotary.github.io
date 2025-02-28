@@ -1,4 +1,4 @@
-Thank you for visiting our website! We are dedicated to providing reliable notary services with a focus on customer satisfaction. 
+Thank you for visiting our website! We are dedicated to providing reliable notary services with a focus on customer satisfaction!
 
 ## Our Services
 
