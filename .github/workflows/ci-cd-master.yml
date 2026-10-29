@@ -22,9 +22,9 @@ jobs:
 
     - name: Prepare standalone site
       run: |
-        mkdir -p _site/css
+        mkdir -p _site/static/css
         cp index.html CNAME _site/
-        cp static/css/styles.css _site/css/
+        cp static/css/styles.css _site/static/css/
         touch _site/.nojekyll
 
     - name: Deploy to GitHub Pages
