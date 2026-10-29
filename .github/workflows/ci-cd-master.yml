@@ -1,9 +1,16 @@
-name: Deploy Hugo site to GitHub Pages
+name: Deploy static site to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Set this to the branch you want to deploy from
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-static-site
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -11,18 +18,19 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: 'latest'
-
-    - name: Build
-      run: hugo --minify
+    - name: Prepare standalone site
+      run: |
+        mkdir -p _site/css
+        cp index.html CNAME _site/
+        cp static/css/styles.css _site/css/
+        touch _site/.nojekyll
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+        publish_dir: ./_site
+        publish_branch: gh-pages
+        keep_files: false
