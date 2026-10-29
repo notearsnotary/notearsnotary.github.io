@@ -1,0 +1,15 @@
+# Unused Hugo sources and generated output
+/archetypes/
+/config.toml
+/content/
+/layouts/
+/public/
+/resources/
+/.hugo_build.lock
+
+# Unused JavaScript
+/static/js/scripts.js
+
+# Local deployment output and macOS files
+/_site/
+.DS_Store
