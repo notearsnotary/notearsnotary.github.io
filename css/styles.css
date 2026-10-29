@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+body {
+    font-family: sans-serif;
+    background-color: #8C52FF; /* Purple background */
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'DM Serif Text', serif;
+    margin: 10px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+a {
+    color: black; /* Black color for links */
+    text-decoration: underline; /* Underline text decoration */
+}
+
+a:hover {
+    text-decoration: none; /* Remove underline on hover */
+}
+
+.home-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.home-info span {
+    margin: 0 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D7263D;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9em;
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.button:hover {
+    background-color: #b71e2f;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
