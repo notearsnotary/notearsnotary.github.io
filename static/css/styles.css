@@ -104,6 +104,10 @@ section {
     border-radius: 8px;
 }
 
+.service-item-wide {
+    grid-column: 1 / -1;
+}
+
 .rates {
     margin: 0 0 20px;
 }
@@ -209,6 +213,10 @@ dd strong {
 
     .service-list {
         grid-template-columns: 1fr;
+    }
+
+    .service-item-wide {
+        grid-column: auto;
     }
 
     .button-container .button {
